@@ -1,0 +1,12 @@
+﻿<Window x:Class="Click2Type.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Click2Type"
+        mc:Ignorable="d"
+        Title="Click2Type" Height="350" Width="525" WindowState="Minimized" ShowInTaskbar="False" ResizeMode="NoResize" AllowsTransparency="True" Topmost="True" WindowStyle="None" Background="{x:Null}">
+    <Canvas Name="Canvas2Type" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="#02808080" >
+        <TextBlock x:Name="Tblock"></TextBlock>
+    </Canvas>
+</Window>
