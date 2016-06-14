@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:Click2Type"
         mc:Ignorable="d"
         Title="Click2Type" Height="350" Width="525" WindowState="Minimized" ShowInTaskbar="False" ResizeMode="NoResize" AllowsTransparency="True" Topmost="True" WindowStyle="None" Background="{x:Null}">
-    <Canvas Name="Canvas2Type" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="#02808080" >
-        <TextBlock x:Name="Tblock"></TextBlock>
-    </Canvas>
+    <Canvas Name="Canvas2Type" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="#02808080"/>
 </Window>

@@ -63,6 +63,7 @@ namespace Click2Type
                             {
                                 WindowState = WindowState == WindowState.Minimized ? WindowState.Maximized : WindowState.Minimized;
                             }
+                            handled = true;
                             break;
                     }
                     break;
